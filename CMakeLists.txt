@@ -8,10 +8,13 @@ project(qstServer)
 add_executable(qstServer 
 src/main.cpp
 src/server/server.cpp
+src/qst/qst.cpp
 )
 
 target_include_directories(
-    qstServer PRIVATE src/server
+    qstServer PRIVATE 
+    src/server
+    src/qst
 )
 
 # Especifica que o servidor precisa ser linkado com as bibliotecas de rede
