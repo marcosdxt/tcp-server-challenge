@@ -7,8 +7,8 @@ class QST: public RequestHandler {
 
 public:
     QST();
-
     std::vector<uint8_t> decode(const std::vector<uint8_t> &args);
+
 };
 
 

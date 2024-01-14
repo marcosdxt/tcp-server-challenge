@@ -9,6 +9,7 @@ add_executable(qstServer
 src/main.cpp
 src/server/server.cpp
 src/qst/qst.cpp
+src/qst/qst_message.cpp
 )
 
 target_include_directories(
