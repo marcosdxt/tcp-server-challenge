@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MeuProjeto_prod.dir/src/main.cpp.o -o MeuProjeto_prod  -ldl 

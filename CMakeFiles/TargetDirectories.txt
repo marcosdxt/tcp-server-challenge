@@ -1,0 +1,3 @@
+/home/devel/qsp/server/CMakeFiles/server.dir
+/home/devel/qsp/server/CMakeFiles/edit_cache.dir
+/home/devel/qsp/server/CMakeFiles/rebuild_cache.dir
