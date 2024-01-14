@@ -17,6 +17,7 @@ class QstServer {
 
 public:    
     QstServer(uint16_t port, RequestHandler *handler, uint16_t max_connections=100);
+
     void start();    
 
 private:
@@ -25,7 +26,12 @@ private:
     RequestHandler *handler;
 
     void socketInit(int &serverSocket);
+
     void epollInit(int &epollFd, epoll_event &event, int serverSocket);
+
+    void handleConnection(int serverSocket, int epollFd, 
+                          epoll_event &event,
+                          const epoll_event &client_event);
 };
 
 
